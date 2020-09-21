@@ -1,4 +1,4 @@
-package listaPoo;
+package listaPoo.printer;
 
 // Descrição:
 //
@@ -11,6 +11,8 @@ package listaPoo;
 //         tela do texto recebido como se fosse na impressora);
 //      c) Método para informar a quantidade de páginas que ainda podem ser impressas com a
 //         carga atual.
+
+import org.jetbrains.annotations.NotNull;
 
 public class Printer {
     private final String maker;
@@ -31,7 +33,7 @@ public class Printer {
         System.out.println(numPages / this.printVelocity + " Pagina(s) por Segundo");
     }
 
-    public void Print(String Content) {
+    public void Print(@NotNull String Content) {
         this.printingCapacity = this.printingCapacity - Content.length();
         System.out.println(Content);
     }
@@ -50,5 +52,9 @@ public class Printer {
 
     public String getModel() {
         return this.model;
+    }
+
+    public int getPrintVelocity() {
+        return printVelocity;
     }
 }
