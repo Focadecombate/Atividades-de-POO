@@ -1,4 +1,4 @@
-package listaPoo.balaio
+package listaPoo.kotlin.balaio
 
 object Main {
     @JvmStatic

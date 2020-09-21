@@ -1,4 +1,4 @@
-package listaPoo;
+package listaPoo.Java.jogadorFutebol;
 
 // 1)
 // Criar uma classe para representar um Jogador de Futebol, com os atributos nome,

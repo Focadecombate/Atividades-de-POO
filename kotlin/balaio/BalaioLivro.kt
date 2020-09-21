@@ -1,4 +1,4 @@
-package listaPoo.balaio
+package listaPoo.kotlin.balaio
 
 class BalaioLivro(private var grupos: Array<Grupo>, private var Regras: String) {
     fun getGrupos() {
@@ -24,6 +24,6 @@ class BalaioLivro(private var grupos: Array<Grupo>, private var Regras: String) 
     }
 
     fun getRegras() : String {
-        return this.Regras;
+        return this.Regras
     }
 }

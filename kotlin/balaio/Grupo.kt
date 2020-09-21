@@ -1,4 +1,4 @@
-package listaPoo.balaio
+package listaPoo.kotlin.balaio
 
 class Grupo(var nomeGrupo : String, var link : String, var livros : Array<Livro>) {
 
