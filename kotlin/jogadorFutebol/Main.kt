@@ -1,4 +1,4 @@
-package listaPoo.jogadorFutebol
+package listaPoo.kotlin.jogadorFutebol
 
 object Main {
     @JvmStatic

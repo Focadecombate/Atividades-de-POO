@@ -1,4 +1,4 @@
-package listaPoo.jogadorFutebol
+package listaPoo.kotlin.jogadorFutebol
 
 // 1)
 // Criar uma classe para representar um Jogador de Futebol, com os atributos nome,
@@ -9,6 +9,7 @@ package listaPoo.jogadorFutebol
 //         c) Mostrar quanto tempo falta para o jogador se aposentar.
 //         Para isso, considere que os jogadores da posição de defesa se aposentam em média aos
 //         40 anos, os jogadores de meio-campo aos 38 e os atacantes aos 35.
+
 class JogadorFutebol(
         private val nome : String,
         private val posicao : String,
